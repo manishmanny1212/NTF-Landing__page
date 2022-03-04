@@ -1,0 +1,9 @@
+.clients{
+    padding: 5rem 0rem;
+    .container{
+        .client-container{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+    }
+}

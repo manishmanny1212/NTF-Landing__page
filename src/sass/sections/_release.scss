@@ -1,0 +1,85 @@
+.releases {
+  // border: 3px solid red;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  .release {
+    // border: 3px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0.5rem;
+    .content {
+      // border: 3px solid red;
+      padding: 5rem 8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      .title {
+        // border: 3px solid red;
+        font-size: 2rem;
+      }
+      .description {
+        font-size: 1.3rem;
+        color: black;
+        // a{
+        //     columns: black;
+        //     font-weight: bold;
+        //     text-decoration: none;
+        // }
+      }
+      a {
+        columns: black;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .link {
+        // border: 3px solid red;
+        columns: black;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        gap: 1rem;
+        .svg {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .image {
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      // border: 3px solid red;
+      z-index: 1;
+      justify-content: center;
+      align-items: flex-end;
+      img {
+          
+        height: 30rem;
+        overflow: hidden;
+      }
+      .ellipse {
+        
+    
+        z-index: 5;
+    
+    
+        height: 20rem;
+        width: 20rem;
+        filter: blur(100px);
+
+        right: 0;
+        position: absolute;
+        bottom: 30%;
+      }
+    }
+  
+  }
+  .orange {
+    background-color: var(--orange);
+  }
+  
+  .pink {
+    background-color: var(--pink);
+  }
+}

@@ -1,0 +1,20 @@
+.scrollTop {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  z-index: 100;
+  right: 5rem;
+  bottom: 5rem;
+ 
+  
+  a {
+    svg {
+      font-size: 2rem;
+      color: var(--accent-color1);
+    }
+  }
+}
+.visiable {
+  visibility: visible;
+  opacity: 1;
+}
